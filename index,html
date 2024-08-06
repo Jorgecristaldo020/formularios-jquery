@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div id="contenedor" class="container">
+        <h3 id="hEncabezado">El formulario</h3>
+        <div>
+            <!-- nombre -->
+            <div class="form-group">
+                <label for="txtNombre">Nombre:</label>
+                <input type="text" class="form-control" placeholder="Escribe tu nombre" id="txtNombre">
+            </div>
+            <!--  -->
+            <div class="form-group">
+                <label for="txtApellido">Apellido:</label>
+                <input type="text" class="form-control" placeholder="Escribe tu apellido" id="txtApellido">
+            </div>
+            <div class="form-group">
+                <label for="txtCedula">Cedula:</label>
+                <input type="text" class="form-control" placeholder="Escribe tu nombre" id="txtCedula">
+            </div>
+            <button type="button" class="btn btn-primary" id="btnEnviar">Enviar</button>
+        </div>
+    </div>
+
+    <!-- <script src="./assets/js/jquery.slim.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./app.js"></script>
+</body>
+</html>
